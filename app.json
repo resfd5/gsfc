@@ -1,0 +1,30 @@
+﻿{
+  "name": "gsfc",
+  "description": "cxf.name",
+  "keywords": [
+    "cxf.name"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "value": "vless",
+      "required": true
+    },
+    "UUID": {
+      "description": "",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/resfd5/gsfc",
+  "repository": "https://github.com/resfd5/gsfc",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
